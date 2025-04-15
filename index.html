@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1 class="hide">KettleWulf's Amazing, Super-Fun, Sexy-Looking, Sensuously Written, Short- and Concise-coded,
+        Advanced Programming, Elite-Force Haxx0r Student-Quiz-game</h1>
+
+    <div class="container text-center">
+        <div id="game-room" class="row">
+            <div class="col py-5">
+                <div class="card mb-3 display">
+                    <img src="quiz.jpg" id="quiz-img" class="card-img-top card display"
+                        alt="Picture of student to guess">
+                    <div class="card-body">
+                        <p id="score-board" class="h3 card-title">
+                        <p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="hide" id="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" id="btn-1" class="btn btn-info btn-lg btnguess"></button>
+                    <button type="button" id="btn-2" class="btn btn-info btn-lg btnguess"></button>
+                    <button type="button" id="btn-3" class="btn btn-info btn-lg btnguess"></button>
+                    <button type="button" id="btn-4" class="btn btn-info btn-lg btnguess"></button>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="popup" class="position-absolute top-0 start-0">
+            <h2>Choose amount of students<br>
+                to guess to start the game!</h2>
+            <div id="startgame">
+                <button type="button" id="quickmode" class="btn btn-outline-light btn-lg btnstart">8</button>
+                <button type="button" id="midmode" class="btn btn-outline-light btn-lg btnstart">16</button>
+                <button type="button" id="fullmode" class="btn btn-outline-light btn-lg btnstart">All</button>
+            </div>
+        </div>
+        <div id="result" class="position-absolute top-0 start-0 hide">
+            <div id="result-card" class="card">
+                <img src="https://media1.tenor.com/m/MdF7Ve3qpAIAAAAd/monsters-at-work-mike-wazowski.gif"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p id="congratz" class="card-text h3 py-3">Confgreatulations tyiou are awesome and stuff!</p>
+                    <button class="btn btn-outline-light btn-lg btn-success">Play Again?</button>
+                    <button id="btnnothx" class="btn btn-outline-light btn-lg btn-danger">I'm Done</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="students.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
