@@ -1,35 +1,35 @@
-# 🎓 Student Quiz Game
+# Student Quiz Game
 
 An interactive image-based quiz where the player guesses which student is shown. Built with vanilla JavaScript, HTML and CSS – no frameworks needed. This project has been a fun experiment in core JavaScript techniques and game logic.
 
 ---
 
-## 🧠 What I Practiced in This Project
+## What I Practiced in This Project
 
-### ✅ Higher-order array functions
+### Higher-order array functions
 Used built-in JavaScript array methods to write cleaner, more declarative code:
 - `map()` – to dynamically render answer buttons
 - `filter()` and `find()` – to control which students are shown and avoid duplicates
 - `forEach()` – for button behavior and event handling
 
-### 🕹️ Game State Management
+### Game State Management
 The game is powered by a central `state` object, keeping track of:
 - Remaining and already guessed students
 - The correct answer for the current round
 - Player score and round number
 - Game length (8, 16, or full mode)
 
-### 🧬 Object Cloning
+### Object Cloning
 Used `structuredClone()` to deep copy the initial state and reset the game cleanly between rounds.
 
-### 💬 Player Feedback
+### Player Feedback
 - Clear visual feedback (green/red buttons)
 - Real-time score updates
 - End-of-game screen with personalized message and high score tracking
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - HTML5 + CSS3 (with Bootstrap for layout)
 - Vanilla JavaScript
@@ -38,18 +38,18 @@ Used `structuredClone()` to deep copy the initial state and reset the game clean
 
 ---
 
-## 🚧 Potential Improvements
+## Potential Improvements
 
 Ideas for future development:
 
-- ♿ **Accessibility**: Add keyboard navigation and screen reader support
-- 🎞️ **Animations**: Smooth transitions when showing new images
-- ⏱️ **UX Enhancements**: Countdown mode, timer challenges
-- 🔊 **Sound effects**: Audio feedback for right/wrong answers
-- 💾 **Persistent high score**: Save using `localStorage`
+- **Accessibility**: Add keyboard navigation and screen reader support
+- **Animations**: Smooth transitions when showing new images
+- **UX Enhancements**: Countdown mode, timer challenges
+- **Sound effects**: Audio feedback for right/wrong answers
+- **Persistent high score**: Save using `localStorage`
 
 ---
 
-## 🙌 Final Thoughts
+## Final Thoughts
 
 This project was a hands-on way to explore key JavaScript concepts while building something fun and visually engaging. I'm happy with the result and excited to keep iterating on it!
