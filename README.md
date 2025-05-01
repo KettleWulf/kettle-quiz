@@ -4,7 +4,7 @@ An interactive image-based quiz where the player guesses which student is shown.
 
 ---
 
-<p float="left">
+<p float="left" align="center">
   <img src="https://github.com/user-attachments/assets/5caeb634-3cfa-428c-be88-5d8e0d33fdf1" alt="quiz-1" width="325"/>
   <img src="https://github.com/user-attachments/assets/6131737a-4789-472d-a790-671b78454c1e" alt="quiz-2" width="300"/>
 </p>
