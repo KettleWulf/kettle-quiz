@@ -4,6 +4,11 @@ An interactive image-based quiz where the player guesses which student is shown.
 
 ---
 
+<img src="https://github.com/user-attachments/assets/2fd02e62-bcb7-4868-87d7-ebf07b8977d8" alt="quiz-1" width="600"/>
+<img src="https://github.com/user-attachments/assets/6131737a-4789-472d-a790-671b78454c1e" alt="quiz-2" width="600"/>
+
+---
+
 ## What I Practiced in This Project
 
 ### Higher-order array functions
