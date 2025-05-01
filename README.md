@@ -4,8 +4,10 @@ An interactive image-based quiz where the player guesses which student is shown.
 
 ---
 
-<img src="https://github.com/user-attachments/assets/2fd02e62-bcb7-4868-87d7-ebf07b8977d8" alt="quiz-1" width="600"/>
-<img src="https://github.com/user-attachments/assets/6131737a-4789-472d-a790-671b78454c1e" alt="quiz-2" width="600"/>
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/5caeb634-3cfa-428c-be88-5d8e0d33fdf1" alt="quiz-1" width="325"/>
+  <img src="https://github.com/user-attachments/assets/6131737a-4789-472d-a790-671b78454c1e" alt="quiz-2" width="300"/>
+</p>
 
 ---
 
